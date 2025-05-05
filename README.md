@@ -1,12 +1,44 @@
-# React + Vite
+# Catalogue Filtering App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React.js application that allows users to filter a list of topics by name and category. This app displays topic cards and handles real-time search filtering. It showcases a clean and modular approach to building a catalogue management system with a focus on search functionality.
 
-Currently, two official plugins are available:
+🚀 Features
+🔍 Search by name: Filter topics as you type (case-insensitive).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🗂 Filter by category: Select from available categories.
 
-## Expanding the ESLint configuration
+🧹 Clear Filters: Reset search and category filters.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧱 Card display: Each topic is displayed as a card with a name and category.
+
+🎨 CSS Styling: Basic styling using a separate catalogue.css file.
+
+
+🛠 Tech Stack
+React.js – JavaScript library for building the user interface
+
+JavaScript (ES6+) – For app functionality
+
+CSS – Styling the components
+
+Vite – For quick setup
+
+
+📦 Installation & Setup
+To get started with the project:
+
+git clone https://github.com/your-username/catalogue-app.git
+cd catalogue-app
+
+npm install
+npm start
+
+The app will run on http://localhost:3000.
+
+
+✍️ Author
+Sailash
+
+Linkedin - https://www.linkedin.com/in/sailash-s-646030311/
+GitHub - https://github.com/Sailash05
+Email - sailashs2005@gmail.com
