@@ -4,7 +4,7 @@ import Card from "./Card.jsx";
 import './topicsearch.css';
 import { datas } from '../constants.js';
 
-function Catalogue() {
+function TopicSearch() {
 
     const categories = [...new Set(datas.map(item => item.category))];
 
@@ -14,7 +14,7 @@ function Catalogue() {
 
     const handleFilter = function() {
         let newFilteredDatas = datas.filter(data =>
-            (data.name.toLowerCase().includes(searchText.toLowerCase()) || searchText === "") && (category === 'ALL' || data.category === category)
+            (data.name.toLowerCase().includes(searchText.trim().toLowerCase()) || searchText === "") && (category === 'ALL' || data.category === category)
         );
         setFilteredDatas(newFilteredDatas);
     }
@@ -56,4 +56,4 @@ function Catalogue() {
     );
 }
 
-export default Catalogue;
+export default TopicSearch;

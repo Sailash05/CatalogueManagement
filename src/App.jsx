@@ -1,8 +1,8 @@
-import Catalogue from "./component/TopicSearch";
+import TopicSearch from "./component/TopicSearch.jsx";
 
 function App() {
     return(
-        <Catalogue />
+        <TopicSearch />
     );
 }
 
